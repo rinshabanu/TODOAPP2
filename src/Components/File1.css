@@ -1,0 +1,178 @@
+ /* body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  padding-top: 150px;
+  padding-left: 500px;
+}
+.box {
+  background-color: #012727d7;
+   justify-items: center; 
+  width: 50%;
+  margin-top: 50px;
+  border: none;
+  padding: 0px;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+#text {
+  text-align: center;
+  color: white;
+}
+.formown {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  width: 400px;
+  margin-bottom: 30px;
+}
+.textbox {
+  width: 100%;
+  margin-left: 50px;
+}
+#bt1 {
+  margin-left: 10px;
+  background-color: transparent;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.listown {
+  margin-top: 30px;
+}
+
+
+.listco {
+  background-color: #2b2b2b;
+  color: white;
+  padding: 10px;
+  margin: 10px 0;
+  margin-right: 25px;
+
+  border-radius: 5px; 
+  list-style: none; 
+  
+}
+
+.formdetails {
+  margin-bottom: 15px;
+  margin-left: -12px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+.ico {
+  display: flex;
+  gap: 20px;
+  justify-content: end;
+  cursor: pointer;
+}
+.completed {
+  color: green;
+}
+.edit {
+  color: blue;
+}
+.delete {
+  color: orange;
+} */ 
+.container{
+  width: 40%!important;
+  margin-top: 50px;
+  background-color:#012727d7 ;
+  border: none;
+  padding: 30px;
+  border-radius: 10px;
+}
+h2{
+  text-align: center;
+  color: white !important;
+}
+.form-group{
+display: flex;
+flex-direction: row;
+margin: 20px;
+width: auto;
+}
+.button{
+  margin-left: 10px;
+  background-color: transparent;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  width: 20%;
+  font-weight: bold;
+  cursor: pointer;
+}
+.list{
+  margin-top: 30px !important;
+}
+li{
+  margin-bottom: 15px;
+  margin-left: -12px;
+  background-color: black !important;
+  color: white !important;
+  border: none !important;
+  list-style-type: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+.list-items{
+  display: flex;
+}
+.list-items-list.list-item-icons{
+  padding-left: 5px;
+  font-size: 25px;
+  cursor: pointer !important;
+}
+#complete{
+  color: green;
+cursor: pointer;
+justify-content: end;
+text-align: end;
+}
+#edit{
+  color: blue;
+  cursor: pointer;
+  justify-content: end;
+
+}
+#delete{
+  color: red;
+  cursor: pointer;
+  justify-content: end;
+
+
+}
+.list-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+
+}
+
+/* .icons {
+  display: flex;
+  gap: 20px;
+  margin-left: 10px !important;
+} */
+
+
+.icons {
+  display: flex;
+  margin-left: 10px;
+}
+
+.list-item-icons {
+  font-size: 25px;
+  cursor: pointer;
+  margin-left: 20px; 
+}
+#list-item{
+  text-decoration: line-through;
+  opacity: 0.3;
+}
